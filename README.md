@@ -3,6 +3,20 @@
 This document outlines the endpoints and functionalities provided by the Customer Management API.
 
 ## Endpoints
+## Authentication Endpoint
+
+### Authenticate User
+
+- **HTTP Method:** POST
+- **Endpoint:** /authenticate
+- **Description:** Authenticates a user and generates a JWT token for further authorization.
+- **Request Body:** JSON object containing user credentials (username and password).
+  ```json
+  {
+    "username": "example_user",
+    "password": "example_password"
+  }
+
 
 ### Create Customer
 
