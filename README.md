@@ -16,8 +16,10 @@ This document outlines the endpoints and functionalities provided by the Custome
     "username": "example_user",
     "password": "example_password"
   }
-  - **Already created user:** User I have created already to get JWT Authentication tocken
-  ```using that any user can access the endpoints  of the application
+
+  
+   created user-  I have  already created a user to get JWT Authentication tocken
+  using that any user can access the endpoints  of the application
   {
     "username": "user1",
     "password": "12345"
